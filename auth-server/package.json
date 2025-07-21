@@ -1,0 +1,14 @@
+{
+  "name": "watchmate-auth-server-local",
+  "version": "1.0.0",
+  "description": "Local secure Ably token authentication server for WatchMate.",
+  "main": "auth-server-local.js",
+  "scripts": {
+    "start": "node auth-server-local.js"
+  },
+  "dependencies": {
+    "ably": "^1.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
